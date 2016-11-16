@@ -1,8 +1,35 @@
-<?php
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="css/estilo.css" media="all" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <img src="img/SA.jpg"/>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="clientes.php">Clientes</a></li>
+                    <li><a href="produtos.php">Produtos</a></li>
+                    <li><a href="servicos.php">Serviços</a></li>
+                     <li><a class="active" href="orcamentos.php">Orçametos</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <div id="content1">
+                    
+                </div>
+                
+            </div>
+            <div id="footer"></div>
+        </div>
 
+        <?php
+        // put your code here
+        ?>
+    </body>
+</html>
