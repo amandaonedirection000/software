@@ -16,17 +16,16 @@
                     <li><a href="clientes.php">Clientes</a></li>
                     <li><a class="active" href="produtos.php">Produtos</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
-                     <li><a href="orcamentos.php">Orçametos</a></li>
+                    <li><a href="orcamentos.php">Orçametos</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
             <div id="content">
-                <div id="content1">
-                    
-                <div id="content2">
-                    
-                </div>
+                
             </div>
-            <div id="footer"></div>
+            <div id="footer">
+                <p>2016 &copy; - Todos os direitos reservados.</p>
+            </div>
         </div>
 
         <?php

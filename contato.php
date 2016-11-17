@@ -13,11 +13,11 @@
             <div id="menu">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a class="active" href="clientes.php">Clientes</a></li>
+                    <li><a href="clientes.php">Clientes</a></li>
                     <li><a href="produtos.php">Produtos</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
                     <li><a href="orcamentos.php">Orçametos</a></li>
-                    <li><a href="contato.php">Contato</a></li>
+                    <li><a class="active" href="contato.php">Contato</a></li>
                 </ul>
             </div>
             <div id="content">
