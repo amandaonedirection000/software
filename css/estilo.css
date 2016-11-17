@@ -51,6 +51,16 @@ li a:hover:not(.active) {
 #content {
     width: 100%;
 }
+#content #contato {
+    width: 76%;
+    font-family: arial;
+    font-size: 25px;
+}
+
+#content #contato img {
+    width: 35%;
+    padding-left: 250px; 
+}
 
 #content1 {
     width: 62%;
