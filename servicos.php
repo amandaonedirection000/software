@@ -21,7 +21,47 @@
                 </ul>
             </div>
             <div id="content">
-                
+                <div class="titulo">
+                        <h1><big> Conheça Nossos Serviços</big></h1>  
+                    </div>
+                    <hr> 
+                    <div class="promocao">
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/venda.jpg" width="300" height="200"/>
+                            </a>
+                            <div class="desc">
+                                Venda de Eletrônicos <br>
+                                
+                            </div> 
+                        </div>
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/formatar.jpg" width="300" height="200"/>
+                            </a>
+                            <div class="desc">
+                                Formatação de Eletrônicos <br>
+                                
+                            </div> 
+                        </div>
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/foto3.jpg" width="300" height="200"/>
+                            </a>
+                            <div class="desc">
+                                Manutenção de Eletrônicos <br>
+                                
+                            </div> 
+                        </div>
+                        <div class="img">
+                            <a href="#">
+                                <img src="img/instalação.jpg" width="300" height="200"/>
+                            </a>
+                            <div class="desc">
+                                Instalação de Eletrônicos <br>
+                                
+                            </div> 
+                        </div>
             </div>
             <div id="footer">
                 <p>2016 &copy; - Todos os direitos reservados.</p>

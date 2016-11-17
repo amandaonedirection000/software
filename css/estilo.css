@@ -106,3 +106,26 @@ li a:hover:not(.active) {
 #content3 img {
     width: 100%;
 }
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;  
+}
+.promocao {
+    width: 100%;
+    text-align: center;
+
+}
+.promocao .img {
+    margin: 45px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px; 
+}
+.promocao .img:hover {
+    border:1px solid #777;
+}
+.promocao .img img {
+    width: 100%;
+    height: 180px;
+}
