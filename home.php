@@ -16,14 +16,15 @@
                     <li><a href="clientes.php">Clientes</a></li>
                     <li><a href="produtos.php">Produtos</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
-                     <li><a href="orcamentos.php">Orçametos</a></li>
+                    <li><a href="orcamentos.php">Orçametos</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
             <div id="content">
                 <div id="content1">
                     <h1 align="center">
                         <big>
-                        Bem vindo ao Site!
+                            Bem vindo ao Site!
                         </big>
                     </h1>
                     <br>
@@ -45,9 +46,15 @@
                 </div>
                 <div id="content2">
                     <img src="img/home.jpg"/>
+                    <img src="img/home2.png" class="img"/>
+                </div>
+                <div id="content3">
+                    <img src="img/home1.jpg"/>
                 </div>
             </div>
-            <div id="footer"></div>
+            <div id="footer">
+                <p>2016 &copy; - Todos os direitos reservados.</p>
+            </div>
         </div>
 
         <?php
