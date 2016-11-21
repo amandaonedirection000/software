@@ -140,11 +140,44 @@ li a:hover:not(.active) {
     height: 180px;
 }
 
+/*PARTE DO FORMULÁRIO DO SOFTWARE*/
+
 #formcliente {
     margin: 20px;
+    font-size: 20px;
+    background-color: #E8E8E8;
 }
 
 #content fieldset {
     padding: 15px;
 }
 
+.titulo1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    border-color: #00BFFF;
+}
+
+.cmpgr {
+    width: 65%;
+    padding: 4px;
+}
+
+.cmppq {
+    width: 40%;
+    padding: 4px;
+}
+
+fieldset {
+    border-radius: 8px;
+}
+
+button {
+    border-color: #00BFFF;
+    padding: 5px;
+    font-size: 15px;
+}
+/*FIM DAS PARTES DOS FORMULÁRIOS DO SOFTWARE*/

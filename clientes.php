@@ -21,49 +21,50 @@
                 </ul>
             </div>
             <div id="content">
-
+                <h2 class="titulo1">CADASTRO DE CLIENTES</h2>
                 <form action="action_page.php" id="formcliente">
                     <fieldset>
-                        <legend align="center">CADASTRO DE CLIENTES</legend>
-                        <label for="fname">Nome Completo:</label>
+                        <label>Nome Completo:</label>
                         <br>
-                        <input type="text" id="fname" name="nome"/>
+                        <input type="text" class="cmpgr" name="nome"/>
                         <br>
-                        <label for="country">Tipo de pessoa:</label>
+                        <label>Tipo de pessoa:</label>
                         <br>
-                        <input type="text" id="fname" name="tpessoa">
+                        <input type="text" class="cmppq" name="tpessoa">
                         <br>
-                        <label for="lname">CPF</label>
+                        <label>CPF:</label>
                         <br>
-                        <input type="text" id="lname" name="cpf"/>
+                        <input type="text" class="cmppq" name="cpf"/>
                         <br>
-                        <label for="country">Endereço:</label>
+                        <label>Endereço:</label>
                         <br>
-                        <input type="text" id="fname" name="endereco"/>
+                        <input type="text" class="cmpgr" name="endereco"/>
                         <br>
-                        <label for="country">Cidade:</label>
+                        <label>Cidade:</label>
                         <br>
-                        <input type="text" id="fname" name="cidade"/>
+                        <input type="text" class="cmppq" name="cidade"/>
                         <br>
-                        <label for="country">Estado:</label>
+                        <label>Estado:</label>
                         <br>
-                        <input type="text" id="fname" name="estado"/>
+                        <input type="text" class="cmppq" name="estado"/>
                         <br>
-                        <label for="country">Telefone:</label>
+                        <label>Telefone:</label>
                         <br>
-                        <input type="text" id="fname" name="celular">
+                        <input type="text" class="cmppq" name="celular">
                         <br>
-                        <label for="country">E-mail:</label>
+                        <label>E-mail:</label>
                         <br>
-                        <input type="text" id="fname" name="email">
+                        <input type="text" class="cmpgr" name="email">
                         <br>
-                        <label for="country">Celular:</label>
+                        <label>Celular:</label>
                         <br>
-                        <input type="text" id="fname" name="firstname">
+                        <input type="text" class="cmppq" name="firstname">
                         <br>
+   
+                        <br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Apagar</button>
                         
-                        <br>
-                        <input type="submit" value="Submit">
                     </fieldset>
                 </form>
 
