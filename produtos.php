@@ -21,7 +21,33 @@
                 </ul>
             </div>
             <div id="content">
-                
+                <form action="action_page.php" id="formcliente">
+                    <fieldset>
+                        <legend align="center">CADASTRO DE CLIENTES</legend>
+                        <label for="fname">Código:</label>
+                        <br>
+                        <input type="text" id="fname" name="codigo"/>
+                        <br>
+                        <label for="country">Tipo:</label>
+                        <br>
+                        <input type="text" id="fname" name="tpessoa">
+                        <br>
+                        <label for="lname">Preço de Custo:</label>
+                        <br>
+                        <input type="text" id="lname" name="cpf"/>
+                        <br>
+                        <label for="country">Preço de Venda:</label>
+                        <br>
+                        <input type="text" id="fname" name="endereco"/>
+                        <br>
+                        <label for="country">Quantidade em Estoque:</label>
+                        <br>
+                        <input type="text" id="fname" name="endereco"/>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
             </div>
             <div id="footer">
                 <p>2016 &copy; - Todos os direitos reservados.</p>
