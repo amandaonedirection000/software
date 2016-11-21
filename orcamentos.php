@@ -21,7 +21,35 @@
                 </ul>
             </div>
             <div id="content">
-                
+                <h2 class="titulo1">ORÇAMENTOS</h2>
+                <form action="action_page.php" id="formcliente">
+                    <fieldset class="tp2">
+                        <label for="fname">CPF do Cliente:</label>
+                        <br>
+                        <input type="text" class="cmppq" name="codigo"/>
+                        <br>
+                    </fieldset>
+                    <br>
+                    <fieldset class="tp2">
+                        <label for="country">Tipo de Serviço:</label>
+                        <br>
+                        <input type="text" class="cmppq" name="tpessoa">
+
+                        <button type="submit" class="btadc">+</button>
+                    </fieldset>
+                    <br>
+                    <fieldset class="tp2">
+                        <label for="lname">Código do Produto:</label>
+                        <br>
+                        <input type="text" class="cmppq" name="cpf"/>
+
+                        <button type="submit" class="btadc">+</button>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <button type="submit">Calcular Orçamento</button>
+
+                </form>
             </div>
             <div id="footer">
                 <p>2016 &copy; - Todos os direitos reservados.</p>
