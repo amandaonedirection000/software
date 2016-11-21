@@ -185,8 +185,7 @@ button {
     background-color: white;
 }
 
-.btadc {
-    margin-left: 400px;
-    border-bottom-color: #00BFFF;
+select {
+    width: 200px;
 }
 /*FIM DAS PARTES DOS FORMULÁRIOS DO SOFTWARE*/

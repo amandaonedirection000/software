@@ -25,23 +25,23 @@
                 <form action="action_page.php" id="formcliente">
                     <fieldset>
                         
-                        <label for="fname">Código:</label>
+                        <label>Código:</label>
                         <br>
                         <input type="text" class="cmppq" name="codigo"/>
                         <br>
-                        <label for="country">Tipo:</label>
+                        <label>Tipo:</label>
                         <br>
                         <input type="text" class="cmppq" name="tpessoa">
                         <br>
-                        <label for="lname">Preço de Custo:</label>
+                        <label>Preço de Custo:</label>
                         <br>
                         <input type="text" class="cmppq" name="cpf"/>
                         <br>
-                        <label for="country">Preço de Venda:</label>
+                        <label>Preço de Venda:</label>
                         <br>
                         <input type="text" class="cmppq" name="endereco"/>
                         <br>
-                        <label for="country">Quantidade em Estoque:</label>
+                        <label>Quantidade em Estoque:</label>
                         <br>
                         <input type="text" class="cmppq" name="endereco"/>
                         <br>

@@ -33,17 +33,32 @@
                     <fieldset class="tp2">
                         <label for="country">Tipo de Serviço:</label>
                         <br>
-                        <input type="text" class="cmppq" name="tpessoa">
-
-                        <button type="submit" class="btadc">+</button>
+                        <select name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <br>
+                        <br>
                     </fieldset>
                     <br>
                     <fieldset class="tp2">
                         <label for="lname">Código do Produto:</label>
                         <br>
-                        <input type="text" class="cmppq" name="cpf"/>
-
-                        <button type="submit" class="btadc">+</button>
+                        <select name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                            <option value="audi">Audi</option>
+                            <option value="audi">Audi</option>
+                            <option value="audi">Audi</option>
+                            <option value="audi">Audi</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <br>
+                        <br>
                     </fieldset>
                     <br>
                     <br>
