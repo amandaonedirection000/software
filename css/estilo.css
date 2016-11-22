@@ -179,6 +179,7 @@ button {
     border-color: #00BFFF;
     padding: 5px;
     font-size: 15px;
+    background-color: #79CDCD;
 }
 
 .tp2 {
@@ -187,5 +188,8 @@ button {
 
 select {
     width: 200px;
+    border: 2px solid #00BFFF;
+    padding: 3px;
+    font-size: 13px;
 }
 /*FIM DAS PARTES DOS FORMULÁRIOS DO SOFTWARE*/

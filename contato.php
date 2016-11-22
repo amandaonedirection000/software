@@ -14,6 +14,7 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="clientes.php">Clientes</a></li>
+                    <li><a href="funcionarios.php">Funcionários</a></li>
                     <li><a href="produtos.php">Produtos</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
                     <li><a href="orcamentos.php">Orçametos</a></li>

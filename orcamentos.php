@@ -14,6 +14,7 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="clientes.php">Clientes</a></li>
+                    <li><a href="funcionarios.php">Funcionários</a></li>
                     <li><a href="produtos.php">Produtos</a></li>
                     <li><a href="servicos.php">Serviços</a></li>
                     <li><a class="active" href="orcamentos.php">Orçametos</a></li>
@@ -34,10 +35,10 @@
                         <label for="country">Tipo de Serviço:</label>
                         <br>
                         <select name="cars">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat">Fiat</option>
-                            <option value="audi">Audi</option>
+                            <option value="vendaeletronicos">Venda</option>
+                            <option value="formatacao">Formatação</option>
+                            <option value="fiat">Manutenção</option>
+                            <option value="audi">Instalação</option>
                         </select>
                         <br>
                         <br>
@@ -47,15 +48,14 @@
                         <label for="lname">Código do Produto:</label>
                         <br>
                         <select name="cars">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat">Fiat</option>
-                            <option value="audi">Audi</option>
-                            <option value="audi">Audi</option>
-                            <option value="audi">Audi</option>
-                            <option value="audi">Audi</option>
-                            <option value="audi">Audi</option>
-                            <option value="audi">Audi</option>
+                            <option value="celular">1</option>
+                            <option value="notebook">2</option>
+                            <option value="tablet">3</option>
+                            <option value="pcmesa">4</option>
+                            <option value="pendrive">5</option>
+                            <option value="impressora">6</option>
+                            <option value="mouse">7</option>
+                            <option value="joystick">8</option>
                         </select>
                         <br>
                         <br>
