@@ -25,7 +25,7 @@
                 <h2 class="titulo1">ORÇAMENTOS</h2>
                 <form action="action_page.php" id="formcliente">
                     <fieldset class="tp2">
-                        <label for="fname">CPF do Cliente:</label>
+                        <label for="fname">CPF ou CNPJ do Cliente:</label>
                         <br>
                         <input type="text" class="cmppq" name="codigo"/>
                         <br>

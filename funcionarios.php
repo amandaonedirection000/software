@@ -22,7 +22,7 @@
                 </ul>
             </div>
             <div id="content">
-                <h2 class="titulo1">CADASTRO DE CLIENTES</h2>
+                <h2 class="titulo1">CADASTRO DE FUNCIONÁRIOS</h2>
                 <form action="action_page.php" id="formcliente">
                     <fieldset>
                         <label>Nome Completo:</label>
@@ -52,6 +52,10 @@
                         <label>E-mail:</label>
                         <br>
                         <input type="text" class="cmpgr" name="email"/>
+                        <br>
+                        <label>Cargo:</label>
+                        <br>
+                        <input type="text" class="cmpgr" name="cargo"/>
                         <br>
                         <label>Salário:</label>
                         <br>
