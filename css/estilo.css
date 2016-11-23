@@ -5,7 +5,8 @@
 
 body {
     background-image: url("../img/wallpaper.jpg");
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
 }
 
 #container {
@@ -40,7 +41,6 @@ li a {
     display: block;
     color: white;
     padding: 8px 16px;
-    font-family: times;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
@@ -61,7 +61,6 @@ li a:hover:not(.active) {
 }
 #content #contato {
     width: 76%;
-    font-family: arial;
     font-size: 25px;
 }
 
@@ -97,7 +96,6 @@ li a:hover:not(.active) {
 }
 
 #content1 .parag {
-    font-family: arial;
     font-size: 25px;
     text-align: justify;
 }
@@ -202,3 +200,37 @@ select {
     font-size: 13px;
 }
 /*FIM DAS PARTES DOS FORMULÁRIOS DO SOFTWARE*/
+
+/*****classe para criar botao****/
+.button {
+    background-color: #79CDCD; /* Green */
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/****configurar tabelas****/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #79CDCD;
+    color: #000;
+}
+td a {
+    color:#000;
+}
