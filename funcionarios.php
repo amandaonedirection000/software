@@ -1,47 +1,45 @@
 
-<h2 class="titulo1">CADASTRO DE FUNCIONÁRIOS</h2>
-<form action="action_page.php" id="formcliente">
-    <fieldset>
-        <label>Nome Completo:</label>
-        <br>
-        <input type="text" class="cmpgr" name="nome"/>
-        <br>
-        <label>Código:</label>
-        <br>
-        <input type="text" class="cmppq" name="codigo"/>
-        <br>
-        <label>Endereço:</label>
-        <br>
-        <input type="text" class="cmpgr" name="endereco"/>
-        <br>
-        <label>Cidade:</label>
-        <br>
-        <input type="text" class="cmppq" name="cidade"/>
-        <br>
-        <label>Estado:</label>
-        <br>
-        <input type="text" class="cmppq" name="estado"/>
-        <br>
-        <label>Telefone:</label>
-        <br>
-        <input type="text" class="cmppq" name="telefone"/>
-        <br>
-        <label>E-mail:</label>
-        <br>
-        <input type="text" class="cmpgr" name="email"/>
-        <br>
-        <label>Cargo:</label>
-        <br>
-        <input type="text" class="cmpgr" name="cargo"/>
-        <br>
-        <label>Salário:</label>
-        <br>
-        <input type="text" class="cmpgr" name="salario"/>
-        <br>
-        <br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Apagar</button>
-
-    </fieldset>
-</form>
+<h1>Lista de Funcionários</h1>
+<hr>
+<a href="?pg=addfuncionarios" class="button"><i class="fa fa-plus fa-lg"></i> Adicionar</a>
+<hr>
+<?php
+require_once 'dao/DaoFuncionario.php';
+$DaoFuncionario = DaoFuncionario::getInstance();
+$dados = $DaoFuncionario->listar();
+?>
+<table>
+    <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Endereço</th>
+        <th>Cidade</th>
+        <th>Telefone</th>
+        <th>E-mail</th>
+        <th>Cargo</th>
+        <th>Salário</th>
+        <th>Login</th>
+        <th>Senha</th>
+        <th>Ações</th>
+    </tr>
+    <?php
+    foreach ($dados as $row) {
+        $id = $row["id"];
+        echo "<tr>";
+        echo "<td>" . $row["id"] . "</td>";
+        echo "<td>" . $row["nome"] . "</td>";
+        echo "<td>" . $row["endereco"] . "</td>";
+        echo "<td>" . $row["cidade"] . "</td>";
+        echo "<td>" . $row["telefone"] . "</td>";
+        echo "<td>" . $row["email"] . "</td>";
+        echo "<td>" . $row["cargo"] . "</td>";
+        echo "<td>" . $row["salario"] . "</td>";
+        echo "<td>" . $row["login"] . "</td>";
+        echo "<td>" . $row["senha"] . "</td>";
+        echo "<td><a href='?pg=editFuncionarios&id=$id' title='Editar'><i class='fa fa-pencil fa-lg'></i></a>"
+        . " <a href='?pg=delFuncionarios&id=$id' title='Excluir' onclick='return confirm(\"Deseja excluir?\")'><i class='fa fa-trash fa-lg'></i></a></td>";
+        echo "</tr>";
+    }
+    ?>
+</table>
 
