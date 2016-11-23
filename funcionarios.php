@@ -18,8 +18,6 @@ $dados = $DaoFuncionario->listar();
         <th>E-mail</th>
         <th>Cargo</th>
         <th>Salário</th>
-        <th>Login</th>
-        <th>Senha</th>
         <th>Ações</th>
     </tr>
     <?php
@@ -34,8 +32,6 @@ $dados = $DaoFuncionario->listar();
         echo "<td>" . $row["email"] . "</td>";
         echo "<td>" . $row["cargo"] . "</td>";
         echo "<td>" . $row["salario"] . "</td>";
-        echo "<td>" . $row["login"] . "</td>";
-        echo "<td>" . $row["senha"] . "</td>";
         echo "<td><a href='?pg=editFuncionarios&id=$id' title='Editar'><i class='fa fa-pencil fa-lg'></i></a>"
         . " <a href='?pg=delFuncionarios&id=$id' title='Excluir' onclick='return confirm(\"Deseja excluir?\")'><i class='fa fa-trash fa-lg'></i></a></td>";
         echo "</tr>";
