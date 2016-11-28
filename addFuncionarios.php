@@ -1,13 +1,13 @@
 <h2 class="titulo1">CADASTRO DE FUNCIONÁRIOS</h2>
-<form action="action_page.php" id="formcliente" method="post">
+<form  id="formcliente" method="post">
     <fieldset>
-        <label>Nome Completo:</label>
-        <br>
-        <input type="text" class="cmpgr" name="nome"/>
-        <br>
         <label>Código:</label>
         <br>
         <input type="text" class="cmppq" name="id"/>
+        <br>
+        <label>Nome Completo:</label>
+        <br>
+        <input type="text" class="cmpgr" name="nome"/>
         <br>
         <label>Endereço:</label>
         <br>
@@ -47,7 +47,6 @@
         <br>
         <br>
         <button type="submit" name="botao">Enviar</button>
-        <button type="reset">Apagar</button>
     </fieldset>
 </form>
 <?php

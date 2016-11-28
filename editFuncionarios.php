@@ -2,18 +2,18 @@
 $id = $_GET["id"];
 require_once 'dao/DaoFuncionario.php';
 $DaoFuncionario = DaoFuncionario::getInstance();
-$atualizar = $DaoFuncionario->getCliente($id);
+$atualizar = $DaoFuncionario->getFuncionario($id);
 ?>
 <h2 class="titulo1">EDIÇÃO DE FUNCIONÁRIOS</h2>
 <form id="formcliente" method="post">
     <fieldset>
         <label>Código:</label>
         <br>
-        <input type="text" class="cmpgr" name="nome" required value="<?=$atualizar["id"]?>"/>
+        <input type="text" class="cmpgr" name="id" required value="<?=$atualizar["id"]?>"/>
         <br>
         <label>Nome:</label>
         <br>
-        <input type="text" class="cmppq" name="cpf_cnpj" required value="<?=$atualizar["nome"]?>"/>
+        <input type="text" class="cmppq" name="nome" required value="<?=$atualizar["nome"]?>"/>
         <br>
         <label>Endereço:</label>
         <br>
@@ -60,7 +60,7 @@ require_once 'dao/DaoFuncionario.php';
 require_once 'model/Funcionario.php';
 if (isset($_POST["botao"])) {
     $funcionario = new Funcionario();
-    $funcionario->setId($id);
+    $funcionario->setId($_POST["id"]);
     $funcionario->setNome($_POST["nome"]);
     $funcionario->setEndereco($_POST["endereco"]);
     $funcionario->setCidade($_POST["cidade"]);

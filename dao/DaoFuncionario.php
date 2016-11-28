@@ -70,7 +70,7 @@ class DaoFuncionario {
     }
 
     public function deletar($id) {
-        $sql = "DELETE FROM funcionario WHERE id =:id";
+        $sql = "DELETE FROM funcionario WHERE id=:id";
         try {
             $p_sql = Conexao::getInstance()->prepare($sql);
             $p_sql->bindValue(":id", $id);
@@ -91,8 +91,8 @@ class DaoFuncionario {
     
     public function atualizar(Funcionario $funcionario) {
         try {
-            $sql = "UPDATE funcionario set id=:id, nome=:nome, endereco=:endereco,"
-                    . "cidade=:cidade,estado=:estado,telefone=:telefone,email=:email,"
+            $sql = "UPDATE funcionario set nome=:nome, endereco=:endereco,"
+                    . "cidade=:cidade, estado=:estado, telefone=:telefone, email=:email,"
                     . "cargo=:cargo, salario=:salario, login=:login, senha=:senha"
                     . " WHERE id=:id";
             $p_sql = Conexao::getInstance()->prepare($sql);
