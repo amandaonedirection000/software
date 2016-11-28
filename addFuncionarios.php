@@ -1,10 +1,6 @@
 <h2 class="titulo1">CADASTRO DE FUNCIONÁRIOS</h2>
 <form  id="formcliente" method="post">
     <fieldset>
-        <label>Código:</label>
-        <br>
-        <input type="text" class="cmppq" name="id"/>
-        <br>
         <label>Nome Completo:</label>
         <br>
         <input type="text" class="cmpgr" name="nome"/>
@@ -54,7 +50,6 @@ require_once 'dao/DaoFuncionario.php';
 require_once 'model/Funcionario.php';
 if (isset($_POST["botao"])) {
     $funcionario = new Funcionario();
-    $funcionario->setId($_POST["id"]);
     $funcionario->setNome($_POST["nome"]);
     $funcionario->setEndereco($_POST["endereco"]);
     $funcionario->setCidade($_POST["cidade"]);

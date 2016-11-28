@@ -1,38 +1,33 @@
-<h2 class="titulo1">CADASTRO DE PRODUTOS</h2>
-<form action="action_page.php" id="formcliente">
-    <fieldset>
+<h1>Lista de Produtos</h1>
+<hr>
+<a href="?pg=addprodutos" class="button"><i class="fa fa-plus fa-lg"></i> Adicionar</a>
+<hr>
+<?php
+require_once 'dao/DaoProduto.php';
+$DaoProduto = DaoProduto::getInstance();
+$dados = $DaoProduto->listar();
+?>
+<table>
+    <tr>
+        <th>Código</th>
+        <th>Tipo do Produto</th>
+        <th>Preço de Compra</th>
+        <th>Preço de Venda</th>
+        <th>Quantidade em Estoque</th>
+    </tr>
+    <?php
+    foreach ($dados as $row) {
+        $id = $row["id"];
+        echo "<tr>";
+        echo "<td>" . $row["id"] . "</td>";
+        echo "<td>" . $row["tipoproduto"] . "</td>";
+        echo "<td>" . $row["precocompra"] . "</td>";
+        echo "<td>" . $row["precovenda"] . "</td>";
+        echo "<td>" . $row["quantidadeestoque"] . "</td>";
+        echo "<td><a href='?pg=editProdutos&id=$id' title='Editar'><i class='fa fa-pencil fa-lg'></i></a>"
+        . " <a href='?pg=delProdutos&id=$id' title='Excluir' onclick='return confirm(\"Deseja excluir?\")'><i class='fa fa-trash fa-lg'></i></a></td>";
+        echo "</tr>";
+    }
+    ?>
+</table>
 
-        <label>Código:</label>
-        <br>
-        <select name="cars">
-            <option value="celular">1</option>
-            <option value="notebook">2</option>
-            <option value="tablet">3</option>
-            <option value="pcmesa">4</option>
-            <option value="pendrive">5</option>
-            <option value="impressora">6</option>
-            <option value="mouse">7</option>
-            <option value="joystick">8</option>
-        </select>
-        <br>
-        <label>Tipo:</label>
-        <br>
-        <input type="text" class="cmppq" name="tpessoa">
-        <br>
-        <label>Preço de Custo:</label>
-        <br>
-        <input type="text" class="cmppq" name="cpf"/>
-        <br>
-        <label>Preço de Venda:</label>
-        <br>
-        <input type="text" class="cmppq" name="endereco"/>
-        <br>
-        <label>Quantidade em Estoque:</label>
-        <br>
-        <input type="text" class="cmppq" name="endereco"/>
-        <br>
-        <br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Apagar</button>
-    </fieldset>
-</form>

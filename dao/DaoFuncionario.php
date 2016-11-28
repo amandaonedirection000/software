@@ -20,8 +20,7 @@ class DaoFuncionario {
     public function inserir(Funcionario $funcionario) {
         try {
             $sql = "INSERT INTO funcionario "
-                    . " (id,"
-                    . " nome,"
+                    . " (nome,"
                     . " endereco,"
                     . " cidade,"
                     . " estado,"
@@ -32,19 +31,17 @@ class DaoFuncionario {
                     . " login,"
                     . " senha)"
                     . " VALUES "
-                    . " (:id,"
-                    . " :nome,"
+                    . " (:nome,"
                     . " :endereco,"
                     . " :cidade,"
                     . " :estado,"
                     . " :telefone,"
-                    . " :email"
-                    . " :cargo"
-                    . " :salario"
-                    . " :login"
-                    . " :senha";
+                    . " :email,"
+                    . " :cargo,"
+                    . " :salario,"
+                    . " :login,"
+                    . " :senha)";
             $p_sql = Conexao::getInstance()->prepare($sql);
-            $p_sql->bindValue(":id", $funcionario->getId());
             $p_sql->bindValue(":nome", $funcionario->getNome());
             $p_sql->bindValue(":endereco", $funcionario->getEndereco());
             $p_sql->bindValue(":cidade", $funcionario->getCidade());
