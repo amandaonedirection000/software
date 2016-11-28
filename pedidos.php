@@ -1,4 +1,4 @@
-<h2 class="titulo1">Pedidos</h2>
+<h1 class="titulo1">Pedidos</h1>
 <form action="action_page.php" id="formcliente">
     <fieldset class="tp2">
         <label for="fname">CPF ou CNPJ do Cliente:</label>

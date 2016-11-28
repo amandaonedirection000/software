@@ -1,4 +1,4 @@
-<h1>Lista de Produtos</h1>
+<h1 class="titulo1">Lista de Produtos</h1>
 <hr>
 <a href="?pg=addprodutos" class="button"><i class="fa fa-plus fa-lg"></i> Adicionar</a>
 <hr>
