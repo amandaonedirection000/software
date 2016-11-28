@@ -1,4 +1,4 @@
-<h2 class="titulo1">CADASTRO DE SERVIÇOS</h2>
+<h1 class="titulo1">Cadastro de Serviços</h1>
 <form action="action_page.php" id="formcliente">
     <fieldset>
         <label>Código:</label>

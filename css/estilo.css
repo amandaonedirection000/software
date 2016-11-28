@@ -60,8 +60,9 @@ li a:hover:not(.active) {
     width: 70%;
 }
 #content #contato {
-    width: 76%;
+    width: 90%;
     font-size: 25px;
+    float: left
 }
 
 #content #contato img {
@@ -114,13 +115,12 @@ li a:hover:not(.active) {
 
 #content3 {
     width: 600px;
-    height: 325px;
     clear: both;
-    padding: 15px;
 }
 
 #content3 img {
     width: 100%;
+
 }
 .titulo {
     width: 100%;
@@ -160,7 +160,6 @@ li a:hover:not(.active) {
 }
 
 .titulo1 {
-    margin-top: 20px;
     text-align: center;
 }
 

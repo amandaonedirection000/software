@@ -1,5 +1,5 @@
 
-<h1>Lista de Funcionários</h1>
+<h1 class="titulo1">Lista de Funcionários</h1>
 <hr>
 <a href="?pg=addfuncionarios" class="button"><i class="fa fa-plus fa-lg"></i> Adicionar</a>
 <hr>

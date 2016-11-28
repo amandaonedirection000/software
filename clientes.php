@@ -1,4 +1,4 @@
-<h1>Lista de Clientes</h1>
+<h1 class="titulo1">Lista de Clientes</h1>
 <hr>
 <a href="?pg=addClientes" class="button"><i class="fa fa-plus fa-lg"></i> Adicionar</a>
 <hr>
