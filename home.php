@@ -1,7 +1,7 @@
 <div id="titulo1">
     <h1 align="center">
         <big>
-            Bem-Vindo ao site de gestão da Informati.com!
+            BEM-VINDO AO SITE DA INFORMATI.COM!
         </big>
     </h1>
     <div id="content5">
