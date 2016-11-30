@@ -1,0 +1,245 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/wallpaper.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+}
+
+#container {
+    width: 1200px;
+}
+
+
+
+#header {
+    width: 100%;
+    height: 200px;
+}
+#header img {
+    width: 100%;
+    height: 200px;
+}
+
+#menu {
+    width: 15%;
+    float: left;
+    background-color:#FFFFFF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #00FFFF;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #00FFFF;
+    color: black;
+}
+
+#content {
+    width: 70%;
+}
+#content #contato {
+    width: 90%;
+    font-size: 25px;
+    float: left
+}
+
+#content #contato img {
+    width: 35%;
+    padding-left: 250px; 
+}
+
+#content1 {
+    width: 62%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+
+#content2 {
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    clear: both;
+}
+
+#footer p {
+    padding-top: 9px;
+    color: white;
+    text-align: center;
+}
+
+#content1 .parag {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#content2 img {
+    width: 100%;
+    height: 160px;
+    padding-top: 110px;
+}
+
+#content2 .img {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+
+#content3 {
+    width: 600px;
+    clear: both;
+}
+
+#content3 img {
+    width: 100%;
+
+}
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;  
+}
+.promocao {
+    width: 100%;
+    text-align: center;
+
+}
+.promocao .img {
+    margin: 45px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px; 
+}
+.promocao .img:hover {
+    border:1px solid #777;
+}
+.promocao .img img {
+    width: 100%;
+    height: 180px;
+}
+
+
+/*PARTE DO FORMULÁRIO DO SOFTWARE*/
+
+#formcliente {
+    margin: 20px;
+    font-size: 20px;
+    background-color: #E8E8E8;
+}
+
+#content fieldset {
+    padding: 15px;
+}
+
+.titulo1 {
+    text-align: center;
+}
+
+input {
+    border-color: #00BFFF;
+}
+
+.cmpgr {
+    width: 65%;
+    padding: 4px;
+}
+
+.cmppq {
+    width: 40%;
+    padding: 4px;
+}
+
+fieldset {
+    border-radius: 8px;
+}
+
+button {
+    border-color: #00BFFF;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #79CDCD;
+}
+
+.tp2 {
+    background-color: white;
+}
+
+select {
+    width: 200px;
+    border: 2px solid #00BFFF;
+    padding: 3px;
+    font-size: 13px;
+}
+/*FIM DAS PARTES DOS FORMULÁRIOS DO SOFTWARE*/
+
+/*****classe para criar botao****/
+.button {
+    background-color: #79CDCD; /* Green */
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/****configurar tabelas****/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #79CDCD;
+    color: #000;
+}
+td a {
+    color:#000;
+}
+
+#content5 {
+    width: 100%;
+}
+
+#content5 img {
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+}
